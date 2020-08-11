@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+    color: #29303b;
+}
 .under_nav{
 height:600px;
 background: url('./Image/bgg.jpg') center;
@@ -16,7 +22,7 @@ background-size: cover;
     letter-spacing:2px;
     text-transform:lowercase;
     word-spacing:3px;
-    margin-bottom:50px;
+    margin-bottom:40px;
     font-family: 'Baloo Tamma 2';
 }
 .call_action_position{
@@ -28,7 +34,43 @@ background-size: cover;
 .btn-call_action{
     background-color: #a7e9af;
     text-decoration: none;
-    padding: 20px 40px;
-    color: #29303b;
+    padding: 15px 30px;
     border-radius:3px;
+}
+/* About  */
+.about-section{
+    display:flex;
+    margin:70px 50px;
+}
+.about-title{
+    margin-bottom:50px;
+    letter-spacing:1px;
+    color:tomato;
+}
+.about-des{
+    letter-spacing:1px;
+    line-height:30px;
+    color:#444;
+    font-weight:0;
+    font-family: sans-serif;
+}
+.about-img{
+    height:300px;
+    margin:50px;
+}
+.about-content{
+    width:65%;
+}
+.about_in_Number{
+    width:250px;
+display: inline-block;
+margin:20px;
+}
+.about_number_main_div{
+    text-align: center;
+}
+.about_number{
+    color: tomato;
+    line-height:50px;
+    font-size:25px;
 }
