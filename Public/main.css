@@ -1,0 +1,34 @@
+.under_nav{
+height:600px;
+background: url('./Image/bgg.jpg') center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.under-nav-filter{
+    height:100%;
+    background:linear-gradient(to right ,#29303bd8 , #282c3491);
+    padding:0px 50px;
+}
+.call_action_txt{
+    font-size:2rem;
+    color: #fff;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:lowercase;
+    word-spacing:3px;
+    margin-bottom:50px;
+    font-family: 'Baloo Tamma 2';
+}
+.call_action_position{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn-call_action{
+    background-color: #a7e9af;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #29303b;
+    border-radius:3px;
+}

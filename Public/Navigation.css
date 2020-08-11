@@ -1,6 +1,6 @@
 
 body{
-    background-color: #000;
+    background-color: #29303b;
 }
 .Navigation{
     background-color: #fff;
@@ -13,19 +13,19 @@ list-style-type:none;
 }
 @media screen and (min-width:900px){
     .logo{
-        height:70px;
+        height:75px;
     }
     .Navigation{
         display: flex;
-        height:100px;
+        height:75px;
         justify-content:space-between;
     }
     .logo-bars{
         margin: auto 70px;
     }
     nav{
-        width:700px;
-margin-right:70px;
+        width:400px;
+margin-right:100px;
     }
     nav ul {
         display: flex;
@@ -45,7 +45,7 @@ margin-right:70px;
     .menu:hover{
 color: #282c34cc;
     }
-    .profile,.times{
+    .times{
         display:none;
     }
 }
@@ -83,19 +83,18 @@ ul li {
     margin:15px 0px;
 }
 .logo{
-    height: 50px;
-}
-.logo-link{
-    margin:auto 0px;
+    height:70px;
 }
 .bars{
     margin: auto 0px auto 20px;
+}.logo-link{
+    margin: auto 20px auto 0px;
 }
 nav{
 position:fixed;
 top:0;
 background: url(./Image/bg.png);
-background-color: #444;
+background-color: #282c34;
 height:100%;
 width:100%;
 transform: translateX(-1200px);
