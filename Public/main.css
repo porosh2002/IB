@@ -39,9 +39,26 @@ background-size: cover;
     border-radius:3px;
 }
 /* About  */
-.about-section{
-    display:flex;
-    margin:70px 50px;
+@media screen and (max-width:900px){
+    .service-title{
+        margin-bottom:30px;
+    }
+    .service-iteam{
+        margin:15px;
+    }
+    .slider{
+        margin-top:70px;
+    }
+    .services{
+        margin-bottom:70px;
+        }
+    .about-img{
+        display:none;
+    }
+    .about-content{
+        width:100%;
+        text-align: center;
+    }
 }
 .about-title{
     margin-bottom:50px;
@@ -54,13 +71,32 @@ background-size: cover;
     color:#444;
     font-weight:0;
     font-family: sans-serif;
+    margin:0px 20px;
 }
-.about-img{
-    height:300px;
-    margin:50px;
-}
-.about-content{
-    width:65%;
+@media screen and (min-width:901px){
+    .service-title{
+        margin-bottom:100px;
+    }
+    .service-iteam{
+        margin:30px;
+    }
+    .slider{
+        margin-top:100px;
+    }
+    .services{
+        margin-bottom:150px;
+        }
+    .about-section{
+        display:flex;
+        margin:70px 50px;
+    }
+    .about-content{
+        width:65%;
+    }
+    .about-img{
+        height:300px;
+        margin:50px;
+    }
 }
 .about_in_Number{
     width:250px;
@@ -79,19 +115,16 @@ margin:20px;
 .services{
 padding:0px 20px;
 text-align: center;
-margin-bottom:150px;
 color:#444;
 }
 .service-title{
     font-size: 2rem;
-    margin-bottom:100px;
     color:#444;
 }
 .service-iteam{
     height:150px;
     width:200px;
     display: inline-block;
-    margin:30px;
     transition:.3s;
 }
 .service-iteam:hover{
@@ -112,7 +145,6 @@ transition:.3s;
 /* Slider */
 .slider{
     background-color: #444;
-    margin-top:100px;
 }
 .swiper-container {
     text-align: center;
@@ -129,12 +161,12 @@ transition:.3s;
 }
 /* Footer */
 .footer{
-    height:400px;
+    padding:50px 0px;
     background-color: #282c34;
     text-align: center;
 }
 .footer-logo{
-    padding: 50px 0px;
+    padding: 20px 0px;
     height:70px;
 }
 .phone_Number-ftr,.email-ftr{
@@ -150,4 +182,14 @@ margin-left:5px;
 }
 .footerlinks a i{
     font-size:25px;
+    color: #dfdfdf;
+    margin:10px;
+}
+.ftr-copyright{
+    line-height:30px;
+}
+.contact-dtls-ftr i {
+    font-size:17px;
+    color: #dfdfdf;
+    margin:5px;
 }
