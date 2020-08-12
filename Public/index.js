@@ -7,3 +7,18 @@ bars.addEventListener('click',()=>{
 cross.addEventListener('click',()=>{
     nav.classList.remove('nav_on_Click')
 })
+
+var typed = new Typed(".type", {
+    strings: [
+      "reality"
+    ],
+    typeSpeed: 120,
+    loop: 0,
+    backSpeed: 120,
+    shuffle: 0
+  });
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView:4,
+    spaceBetween: 30,
+    loop:true,
+  });

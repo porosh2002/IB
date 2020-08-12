@@ -5,34 +5,35 @@
     color: #29303b;
 }
 .under_nav{
-height:600px;
+height:500px;
 background: url('./Image/bgg.jpg') center;
+transform: rotate(180deg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 .under-nav-filter{
     height:100%;
-    background:linear-gradient(to right ,#29303bd8 , #282c3491);
+    transform: rotate(180deg);
     padding:0px 50px;
 }
 .call_action_txt{
-    font-size:2rem;
-    color: #fff;
-    font-weight:600;
-    letter-spacing:2px;
+    font-size:20px;
+    color: #444;
+    font-weight:400;
+    letter-spacing:1px;
     text-transform:lowercase;
     word-spacing:3px;
-    margin-bottom:40px;
-    font-family: 'Baloo Tamma 2';
+    margin-bottom:70px;
 }
-.call_action_position{
+.call_action_position,.service-itm-wraper{
     position: relative;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
 }
 .btn-call_action{
-    background-color: #a7e9af;
+    background-color: #444;
+    color: #ffff;
     text-decoration: none;
     padding: 15px 30px;
     border-radius:3px;
@@ -72,5 +73,81 @@ margin:20px;
 .about_number{
     color: tomato;
     line-height:50px;
+    font-size:25px;
+}
+/* Service */
+.services{
+padding:0px 20px;
+text-align: center;
+margin-bottom:150px;
+color:#444;
+}
+.service-title{
+    font-size: 2rem;
+    margin-bottom:100px;
+    color:#444;
+}
+.service-iteam{
+    height:150px;
+    width:200px;
+    display: inline-block;
+    margin:30px;
+    transition:.3s;
+}
+.service-iteam:hover{
+transform: scale(1.1);
+transition:.3s;
+}
+.service-iteam-title{
+    font-size:17px;
+}
+.fa-code,.fa-palette,.fa-brain,.fa-mobile-alt,.fa-layer-group,.fa-infinity{
+    font-size:30px;
+    margin-bottom:20px;
+}
+.fa-code,.fa-palette,.fa-brain,.fa-mobile-alt,.fa-layer-group,.fa-infinity{
+    font-size:30px;
+    margin-bottom:20px;
+}
+/* Slider */
+.slider{
+    background-color: #444;
+    margin-top:100px;
+}
+.swiper-container {
+    text-align: center;
+    padding:50px 20px 70px 20px;
+  }
+.slider_title{
+    font-size:1.5rem;
+    text-align: center;
+    color:#fff;
+    padding:50px 0px;
+}
+.company-patner-logo{
+    height:55px;
+}
+/* Footer */
+.footer{
+    height:400px;
+    background-color: #282c34;
+    text-align: center;
+}
+.footer-logo{
+    padding: 50px 0px;
+    height:70px;
+}
+.phone_Number-ftr,.email-ftr{
+color: gainsboro;
+margin-left:5px;
+}
+.contact-dtls-ftr{
+    display: inline-block;
+    margin:10px;
+}
+.footerlinks,.copyright{
+    margin-top:30px;
+}
+.footerlinks a i{
     font-size:25px;
 }

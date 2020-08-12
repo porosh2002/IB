@@ -33,5 +33,6 @@ display: none;
     .phone_Number,.email{
         margin-left:5px;
         cursor:context-menu;
+        color: #dfdfdf;
     }
 }
