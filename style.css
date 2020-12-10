@@ -58,8 +58,8 @@ h3 {
   background: #d2d2d2;
   border-radius: 5px;
   cursor: pointer;
-  margin: 40px 20px;
-  height: 4px;
+  margin:50px 20px;
+  height: 5px;
   width: 90%;
 }
 .progress {
@@ -71,7 +71,7 @@ h3 {
 
 .duration-wrapper {
   position: relative;
-  top: -25px;
+  top: -35px;
   display: flex;
   justify-content: space-between;
 }
